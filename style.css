@@ -1,6 +1,24 @@
 body {
-    background-image: linear-gradient(to right, #d175fc, #64097a);
+    background-image: linear-gradient(to top, #26d134, #1c6805);
 
 
 
 }
+a {
+    background-color: #15b12f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 20px; /* зміщення вгору */
+    margin-bottom: 1px; /* зміщення вниз */
+    margin-left: 10px; /* зміщення вліво */
+    margin-right: 20px; /* зміщення вправо */
+}
+

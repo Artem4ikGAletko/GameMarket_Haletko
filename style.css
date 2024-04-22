@@ -1,11 +1,11 @@
 body {
-    background-image: linear-gradient(to top, #26d134, #1c6805);
-
+    background-image: linear-gradient(to left, #40d812, #059224);
+    
 
 
 }
 a {
-    background-color: #15b12f;
+    background-color: #0d9724;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -21,4 +21,15 @@ a {
     margin-left: 10px; /* зміщення вліво */
     margin-right: 20px; /* зміщення вправо */
 }
-
+ h1 {
+    font-family: Arial, sans-serif;
+    background-color: #0ece18;
+    color: #000000;
+ }
+ p {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #0ece18;
+    color: #000000;
+    font-size: 30px;
+ }
+ 

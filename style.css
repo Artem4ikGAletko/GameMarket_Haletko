@@ -5,7 +5,7 @@ body {
 
 }
 a {
-    background-color: #0d9724;
+    background-color: #267539;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -23,13 +23,12 @@ a {
 }
  h1 {
     font-family: Arial, sans-serif;
-    background-color: #0ece18;
+    background-color: #1c9122;
     color: #000000;
  }
  p {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-color: #0ece18;
+    background-color: #3e9443;
     color: #000000;
     font-size: 30px;
  }
- 

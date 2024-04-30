@@ -56,3 +56,8 @@ div{
 .contacts p:last-child {
    border-left: 3px solid rgb(219, 19, 19);
 }
+.license {
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+}

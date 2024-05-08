@@ -53,6 +53,10 @@ itemsArray.sort().forEach((item) =>{
     //console.log(itemsArray[i])
 //}
 
+//Виведення в консоль номерів та значеннь елементів масиву
+// for (let i = 0; < itemsArray.legth; i++) {
+    //console.log(i + '-й елемент',itemsArray[i])
+//}
 
 
 

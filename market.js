@@ -42,9 +42,16 @@ for (let i = 0; i < itemsArray.length; i++){
     console.log(i + '-й елеиент' , itemsArray[i])
 }
 //виведення елементів відсовкового масиву
-itemsArray.sort().forEach((item)) =>{
+itemsArray.sort().forEach((item) =>{
     console.log(item)
-} 
+} )
+
+//Сортування масиву
+//itemsArray = itemsArray.sort()
+//чтпалорпш6п48
+// for (let i = 0; < itemsArray.legth; i++) {
+    //console.log(itemsArray[i])
+//}
 
 
 

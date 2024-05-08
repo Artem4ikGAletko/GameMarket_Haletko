@@ -41,7 +41,10 @@ itemsArray = itemsArray.sort()
 for (let i = 0; i < itemsArray.length; i++){
     console.log(i + '-й елеиент' , itemsArray[i])
 }
-
+//виведення елементів відсовкового масиву
+itemsArray.sort().forEach((item)) =>{
+    console.log(item)
+} 
 
 
 

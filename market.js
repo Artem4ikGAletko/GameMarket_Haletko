@@ -1,10 +1,28 @@
 //перевірка підключеного файлу скриптів
 console.log('перевірка підключеного файлу скриптів market.js')
 
+let itemsArray = [
+    'Товар №1 з 8',
+    'Товар №2 з 8',
+    'Товар №3 з 8',
+    'Товар №4 з 8',
+    'Товар №5 з 8',
+    'Товар №6 з 8',
+    'Товар №7 з 8',
+    'Товар №8 з 8',
+    ]
 // Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
 if(itemsDiv) {
+    itemsArray.forEach((item) => {
+        //itemsDiv.innerText += item
+        itemsDiv.innerHTML +=
+         `
+         <div class = "item">${item}</div>
+         `
+    })
+    
     //Вивід знайденого елементу
     //console.log(itemsDiv)
     //вИВІД ЗНАЧЕННЯ ПОЛЯ знайденого елементу
@@ -22,19 +40,13 @@ if(itemsDiv) {
     //Вивід повідомлення про не знайдений блок
     console.log('Блок товарів не занйдено')
 }
-let itemsArray = [
-'Газонокосарка 43',
-'Електричний тример 110',
-'Електрична газонокосарка 32',
-'Акумудятроний оприскувач 12 N',
-'Газонокосарка 430',
-'Електричний тример 130',
-'Електрична газонокосарка 320',
-'Акумудятроний оприскувач 12 E',
-]
+
 
 //сортування масиву 
-itemsArray = itemsArray.sort()
+//itemsArray = itemsArray.sort()
+itemsArray.forEach((item) => {
+    console.log(item)
+})
 
 //console.log(itemsArray)
 

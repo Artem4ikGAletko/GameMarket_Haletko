@@ -6,22 +6,45 @@ let itemsDiv = document.getElementById("items");
 
 if(itemsDiv) {
     //Вивід знайденого елементу
-    console.log(itemsDiv)
+    //console.log(itemsDiv)
     //вИВІД ЗНАЧЕННЯ ПОЛЯ знайденого елементу
-    console.log('Поле classList',itemsDiv.classList)
-    console.log('Поле iid',itemsDiv.id)
-    console.log('Поле clientWidth',itemsDiv.clientWidth)
-    console.log('Поле innerHTML:',itemsDiv.innerHTML)
+    //console.log('Поле classList',itemsDiv.classList)
+    //console.log('Поле iid',itemsDiv.id)
+    //console.log('Поле clientWidth',itemsDiv.clientWidth)
+    //console.log('Поле innerHTML:',itemsDiv.innerHTML)
 
     //Додавання тексту в блок
-    itemsDiv.innerText = 'Перший Програмно доданий текст'
-    itemsDiv.innerText += 'Другий Програмно доданий текст'
+   // itemsDiv.innerText = 'Перший Програмно доданий текст'
+    //itemsDiv.innerText += 'Другий Програмно доданий текст'
 //Додавання відформатованого HTML коду в блок
-    itemsDiv.innerText = '<h1>Відформатований HTML код</h1>'
+    //itemsDiv.innerText = '<h1>Відформатований HTML код</h1>'
 } else {
     //Вивід повідомлення про не знайдений блок
     console.log('Блок товарів не занйдено')
 }
+let itemsArray = [
+'Газонокосарка 43',
+'Електричний тример 110',
+'Електрична газонокосарка 32',
+'Акумудятроний оприскувач 12 N',
+'Газонокосарка 430',
+'Електричний тример 130',
+'Електрична газонокосарка 320',
+'Акумудятроний оприскувач 12 E',
+]
+
+//сортування масиву 
+itemsArray = itemsArray.sort()
+
+//console.log(itemsArray)
+
+for (let i = 0; i < itemsArray.length; i++){
+    console.log(i + '-й елеиент' , itemsArray[i])
+}
+
+
+
+
 
 
 if(itemsDiv) {

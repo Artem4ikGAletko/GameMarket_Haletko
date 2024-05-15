@@ -2,24 +2,61 @@
 console.log('перевірка підключеного файлу скриптів market.js')
 
 let itemsArray = [
-    'Товар №1 з 8',
-    'Товар №2 з 8',
-    'Товар №3 з 8',
-    'Товар №4 з 8',
-    'Товар №5 з 8',
-    'Товар №6 з 8',
-    'Товар №7 з 8',
-    'Товар №8 з 8',
+    {
+        firstName:"Віталій",
+        lastName:"Шатківський",
+        subject:"Інформатика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+    },
+    {
+        firstName:"Вікторія",
+        lastName:"Нелипович",
+        subject:"Математика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
+    },
+    {
+        firstName:"Марія",
+        lastName:"Медведєва",
+        subject:"Математика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/medvedyeva-mariya-vasylivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
+    },
+    {
+        firstName:"Марія",
+        lastName:"Медведєва",
+        subject:"Математика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/medvedyeva-mariya-vasylivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
+    },
+
+
     ]
 // Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
 if(itemsDiv) {
-    itemsArray.forEach((item) => {
+    itemsArray
+    
+    .forEach((item, index) => {
         //itemsDiv.innerText += item
         itemsDiv.innerHTML +=
          `
-         <div class = "item">${item}</div>
+         <div class = "item">
+         <h2>Вчитель № ${index + 1} з ${itemsArray.length}</h2>
+         <p>;${item.firstName} ${item.lastName}</p>
+         <p>Предмет: ${item.subject}</p>
+         <p><img src = "${item.photo}" class = "item-image"></p>
+         <p><a href = "${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>         
+         <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Написати</a></p>         
+         
+         
+         </div>
          `
     })
     
@@ -51,7 +88,7 @@ itemsArray.forEach((item) => {
 //console.log(itemsArray)
 
 for (let i = 0; i < itemsArray.length; i++){
-    console.log(i + '-й елеиент' , itemsArray[i])
+    console.log(i + '-й елемент' , itemsArray[i])
 }
 //виведення елементів відсовкового масиву
 itemsArray.sort().forEach((item) =>{
@@ -81,7 +118,7 @@ if(itemsDiv) {
 //itemsDiv.innerHTML += '<div class = "item"></div>'
 //itemsDiv.innerHTML += '<div class = "item"></div>'
 //itemsDiv.innerHTML += '<div class = "item"></div>'
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 11; i++) {
     itemsDiv.innerHTML += '<div class = "item"></div>'
 }
 

@@ -17,3 +17,9 @@
 <div>ціна за купоном</div>
 <div><span>4395</span><sup>грн</sup></div>
             </div>
+
+            <p><img src = "${item.photo}" class = "item-image"></p>
+         <p><a href = "${item.url}" target = "_blank" class = "bonus price">Ціна за купоном</a></p>         
+         <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Звичайна ціна</a></p>
+
+         <p>Предмет: ${item.subject}</p>

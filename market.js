@@ -3,6 +3,47 @@ console.log('перевірка підключеного файлу скрипт
 
 let itemsArray = [
     {
+        firstName:"Мотокоса",
+        lastName:"43",
+        price:" 4545 ",
+        donusprice:"123",
+        Ox:"1567",
+        
+        
+        photo:"https://static.dnipro-m.ua/cache/products/6566/catalog_origin_315131.jpg",
+    },
+    {
+        firstName:"Електричний",
+        lastName:"Тример 110",
+        price:" 4 497 ",
+        donusprice:"3 498",
+        Ox:"3000",
+        
+        
+        photo:"https://static.dnipro-m.ua/cache/products/6564/catalog_origin_315127.jpg",
+    },
+    {
+        firstName:"Електрична",
+        lastName:"Газонокос",
+        price:" 3 200 ",
+        donusprice:"3 000",
+        Ox:"2000",
+        
+        
+        photo:"https://static.dnipro-m.ua/cache/products/6567/catalog_origin_300709.jpg",
+    },
+    {
+        firstName:"Акумуляторний ",
+        lastName:"Оприск",
+        price:" 4012 ",
+        donusprice:"3 500",
+        Ox:"2999",
+        
+        
+        photo:"https://static.dnipro-m.ua/cache/products/6642/catalog_origin_302851.jpg",
+    },
+
+    /*{
         firstName:"Віталій",
         lastName:"Шатківський",
         subject:"Інформатика",
@@ -98,8 +139,9 @@ let itemsArray = [
 
         url:"https://lyceum.ztu.edu.ua/team/zynyuk-nataliya-mykolayivna/",
     },
-
+*/
     ]
+    
 // Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
@@ -111,12 +153,19 @@ if(itemsDiv) {
         itemsDiv.innerHTML +=
          `
          <div class = "item">
-         <h2>Вчитель № ${index + 1} з ${itemsArray.length}</h2>
+         <h2>Товар № ${index + 1} з ${itemsArray.length}</h2>
          <p>;${item.firstName} ${item.lastName}</p>
-         <p>Предмет: ${item.subject}</p>
+         
          <p><img src = "${item.photo}" class = "item-image"></p>
-         <p><a href = "${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>         
-         <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Написати</a></p>         
+         <div class="price">
+         <div class="donusprice">
+         <p>${item.price}<span></span><sup>грн</sup></p>
+         <p>${item.donusprice}<span></span><sup>грн</sup>
+         </div>
+         <class="bon"
+         <p>${item.Ox}<sup>грн</sup></p></p> 
+        
+     
          
          
          </div>

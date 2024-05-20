@@ -27,14 +27,77 @@ let itemsArray = [
         url:"https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
     },
     {
-        firstName:"Марія",
-        lastName:"Медведєва",
-        subject:"Математика",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/medvedyeva-mariya-vasylivna-683x1024.jpg",
+        firstName:"Василь",
+        lastName:"Бабій",
+        subject:"Фіз-ра",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
 
-        url:"https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
+        url:"https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
     },
+    {
+        firstName:"Ірина",
+        lastName:"Боровська-Карандюк",
+        subject:"Українська Література",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
 
+        url:"https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
+    },
+    {
+        firstName:"Тарас",
+        lastName:"Савінков",
+        subject:"Англійська мова",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
+    },
+    {
+        firstName:"Наталія",
+        lastName:"Гончарук",
+        subject:"Англійська мова",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/honcharuk-nataliya-oleksandrivna-682x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/honcharuk-n-o/",
+    },
+    {
+        firstName:"Наталія",
+        lastName:"Кучер",
+        subject:"Фізика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
+    {
+        firstName:"Олена",
+        lastName:"Геча",
+        subject:"Історія",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/hecha-o-a/",
+    },
+    {
+        firstName:"Лариса",
+        lastName:"Забелло",
+        subject:"Англійська мова",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna-682x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/zabello-l-o/",
+    },
+    {
+        firstName:"Наталія",
+        lastName:"Венцедь",
+        subject:"Директор",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
+    },
+    {
+        firstName:"Наталія",
+        lastName:"Зинюк",
+        subject:"Хімія",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2024/01/zynjuk-natalija-mykolayivna-683x1024.jpg",
+
+        url:"https://lyceum.ztu.edu.ua/team/zynyuk-nataliya-mykolayivna/",
+    },
 
     ]
 // Отримання елементу з ідентифікатором items

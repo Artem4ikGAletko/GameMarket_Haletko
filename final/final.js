@@ -3,143 +3,21 @@ console.log('перевірка підключеного файлу скрипт
 
 let itemsArray = [
     {
-        firstName:"Мотокоса",
-        lastName:"43",
-        price:" 4545 ",
-        donusprice:"123",
-        Ox:"1567",
-        
-        
-        photo:"https://static.dnipro-m.ua/cache/products/6566/catalog_origin_315131.jpg",
-    },
-    {
-        firstName:"Електричний",
-        lastName:"Тример 110",
-        price:" 4 497 ",
-        donusprice:"3 498",
-        Ox:"3000",
-        
-        
-        photo:"https://static.dnipro-m.ua/cache/products/6564/catalog_origin_315127.jpg",
-    },
-    {
-        firstName:"Електрична",
-        lastName:"Газонокос",
-        price:" 3 200 ",
-        donusprice:"3 000",
-        Ox:"2000",
-        
-        
-        photo:"https://static.dnipro-m.ua/cache/products/6567/catalog_origin_300709.jpg",
-    },
-    {
-        firstName:"Акумуляторний ",
-        lastName:"Оприск",
-        price:" 4012 ",
-        donusprice:"3 500",
-        Ox:"2999",
-        
-        
-        photo:"https://static.dnipro-m.ua/cache/products/6642/catalog_origin_302851.jpg",
-    },
-
-    /*{
-        firstName:"Віталій",
-        lastName:"Шатківський",
-        subject:"Інформатика",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
-    },
-    {
-        firstName:"Вікторія",
-        lastName:"Нелипович",
-        subject:"Математика",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
-    },
-    {
-        firstName:"Марія",
-        lastName:"Медведєва",
-        subject:"Математика",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/medvedyeva-mariya-vasylivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
-    },
-    {
-        firstName:"Василь",
-        lastName:"Бабій",
-        subject:"Фіз-ра",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-    },
-    {
-        firstName:"Ірина",
-        lastName:"Боровська-Карандюк",
-        subject:"Українська Література",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-    },
-    {
-        firstName:"Тарас",
-        lastName:"Савінков",
-        subject:"Англійська мова",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
-    },
-    {
-        firstName:"Наталія",
-        lastName:"Гончарук",
-        subject:"Англійська мова",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/honcharuk-nataliya-oleksandrivna-682x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/honcharuk-n-o/",
-    },
-    {
-        firstName:"Наталія",
-        lastName:"Кучер",
-        subject:"Фізика",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/kucher-n-v/",
-    },
-    {
-        firstName:"Олена",
-        lastName:"Геча",
-        subject:"Історія",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/hecha-o-a/",
-    },
-    {
-        firstName:"Лариса",
-        lastName:"Забелло",
-        subject:"Англійська мова",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna-682x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/zabello-l-o/",
-    },
-    {
-        firstName:"Наталія",
-        lastName:"Венцедь",
-        subject:"Директор",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
-    },
-    {
-        firstName:"Наталія",
-        lastName:"Зинюк",
-        subject:"Хімія",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2024/01/zynjuk-natalija-mykolayivna-683x1024.jpg",
-
-        url:"https://lyceum.ztu.edu.ua/team/zynyuk-nataliya-mykolayivna/",
-    },
-*/
+    email: "23b_lox",
+    group: "10 b",
+    fullName: "Artem ",
+    gameTitle: "",
+    authorPhoto: "img2/Біденко.jpg",
+    gamePhoto: "img2/Башинська.jpg",
+    githubRepo: "",
+    githubPages: "",
+    documentationFolder: "",
+    surveyForm: "",
+    gameMarketRepo: "",
+    gameMarketPages: "",   
+    marketPages: "",
+    finalGameMarketPage: ""
+    }
     ]
     
 // Отримання елементу з ідентифікатором items
@@ -153,18 +31,22 @@ if(itemsDiv) {
         itemsDiv.innerHTML +=
          `
          <div class = "item">
-         <h2>Товар № ${index + 1} з ${itemsArray.length}</h2>
-         <p>;${item.firstName} ${item.lastName}</p>
          
-         <p><img src = "${item.photo}" class = "item-image"></p>
-         <div class="price">
-         <div class="donusprice">
-         <p>${item.price}<span></span><sup>грн</sup></p>
-         <p>${item.donusprice}<span></span><sup>грн</sup>
-         </div>
-         <class="bon"
-         <p>${item.Ox}<sup>грн</sup></p></p> 
-        
+         <p>;${item.group} ${item.fullName}</p>
+         <p>;${item.email} </p>
+         
+         <p><img src = "${item.authorPhoto}" class = "item-image"></p>
+         <p><img src =  "${item.gamePhoto}"class = "item-image"></p>
+         <p><a href = "${item.githubRepo}" target = "_blank" class = "bonus price">GitHub Repository</a></p> 
+         <p><a href = "${item.githubPages}" target = "_blank" class = "bonus price">GitHub Pages_Game</a></p> 
+         <p><a href = "${item. documentationFolder}" target = "_blank" class = "bonus price">GitHub Drive Documentation</a></p> 
+         <p><a href = "${item. surveyForm}" target = "_blank" class = "bonus price">Survey Form</a></p> 
+         <p><a href = "${item.  gameMarketRepo}" target = "_blank" class = "bonus price"> GitHub Repositoriy GameMarket</a></p> 
+         <p><a href = "${item.  gameMarketPages}" target = "_blank" class = "bonus price"> GitHub Pages Desing</a></p> 
+         <p><a href = "${item. marketPages}" target = "_blank" class = "bonus price"> GitHub  Market Pages 4 Products</a></p> 
+         <p><a href = "${item.  finalGameMarketPage}" target = "_blank" class = "bonus price"> Market Pages Final Products</a></p> 
+
+         
      
          
          

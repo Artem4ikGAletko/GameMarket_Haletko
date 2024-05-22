@@ -9,7 +9,7 @@ body {
     background-color: bisque;
 background-color: aliceblue;
 display: flex;
-justify-content: center;
+justify-content: left;
 }
 
 .item{
@@ -27,4 +27,18 @@ justify-content: center;
 .item-image {
     width: 200px;  /* Ширина зображення */
     height: auto;  /* Автоматичне коригування висоти для збереження пропорцій */
+}
+
+.link-box {
+    border: 2px solid rgb(45, 175, 214); /* Синя рамка */
+    padding: 5px; /* Внутрішній відступ */
+    display: inline-block; /* Щоб рамка обертала текст */
+    text-decoration: none; /* Прибрати стандартне підкреслення посилання */
+    color: inherit; /* Зберегти колір тексту */
+    border-radius: 15px;
+    background-color: rgb(43, 170, 212);
+}
+
+.link-box:hover {
+    background-color: rgb(43, 170, 212); /* Додати фон при наведенні */
 }

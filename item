@@ -23,3 +23,25 @@
          <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Звичайна ціна</a></p>
 
          <p>Предмет: ${item.subject}</p>
+
+
+
+
+
+
+         {
+    email: "23b_bvo@liceum.ztu.edu.ua",
+    group: "10-Б 1",
+    fullName: "Башинська Вікторія ",
+    gameTitle: "Dudi 3",
+    authorPhoto: "img2/Башинська.jpg",
+    gamePhoto: "",
+    githubRepo: "https://github.com/ViktoriaBashinska/Phaser2stGame",
+    githubPages: "https://viktoriabashinska.github.io/Phaser2stGame/",
+    documentationFolder: "https://drive.google.com/drive/folders/15v_c4DzKpW5323A4wYMV2Zj7AwRkSPUE?usp=sharing",
+    surveyForm: "https://forms.gle/jHMQsybKdMdUHXKA7",
+    gameMarketRepo: "https://github.com/ViktoriaBashinska/GameMarket_Bashynska",
+    gameMarketPages: "https://viktoriabashinska.github.io/GameMarket_Bashynska/",   
+    marketPages: "https://viktoriabashinska.github.io/GameMarket_Bashynska/market.html",
+    finalGameMarketPage: "https://viktoriabashinska.github.io/GameMarket_Bashynska/final/final.html"
+    }
